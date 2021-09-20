@@ -126,3 +126,23 @@ color:#1d2136;
 .nav-list.active{
 right:0;
 }
+
+.container .main-message p{
+ background-color:white;
+ color:#1d2136;
+ margin:center; 
+ padding:10px;
+ border-bottom:7px solid #66B32E;
+}
+
+.container .main-message{
+box-align:strech;
+
+}
+
+
+.left-side-main{
+width:50px;
+height:10px;
+color:antiquewhite;
+}
