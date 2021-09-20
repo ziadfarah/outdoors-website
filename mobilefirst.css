@@ -39,7 +39,7 @@ padding: 5rem 0;
 }
 
 body{
-    background-image: url('../images/1px.png');
+    background-image: url('1px.png');
     background-color: #1d2136;
     background-repeat:repeat;
 }
