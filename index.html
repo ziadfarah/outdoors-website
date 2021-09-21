@@ -5,23 +5,31 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Design Elements</title>
+    <title>Design Elements Mobile</title>
     <!--Ion Icons-->
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Aldrich&display=swap" rel="stylesheet">
     <!--Our own stylesheet-->
-    <link rel="stylesheet" href="mobilefirst.css">
+    <link rel="stylesheet" href="css/mobilefirst.css">
+    <style> 
+        #backgrounds {
+          background-image: url('images/3dword.png'), url('images/1px.png');
+          background-position:center,top left ;
+          background-repeat:no-repeat,repeat;
+          opacity:1;
+        }
+        </style>
 </head>
-<body>
+<body id="backgrounds">
 
-<header>
+<header>   
 <div class="container">
    <nav>
     <div class="nav-brand">
      <a href="index.html">
-        <img src="logo.png" alt="logo">    
+        <img src="images/logo.png" alt="logo">    
      </a>   
     </div>
 
@@ -37,7 +45,7 @@
 </div>
 
     <li class="nav-item">
-    <a href="#" class="nav-link">Home</a>
+    <a href="#" class="nav-link">About</a>
 </li>
 <li class="nav-item">
     <a href="#" class="nav-link">Services</a>
@@ -56,18 +64,17 @@
 
 
 
-<section class="hero">
+<section class="About">
 <div class="container">
   
 <div class="main-message">
     <br>
-<h1><font color="#66B32E";>Welcome to Design Elements</font></h1><br>
-<h2><font color="white";>Home</font></h2><br><br>
+<h2><font color="white";>About</font></h2><br><br>
 
-<div class="face"><img src="face.png" alt="face"</div>
+<div class="face"><img src="images/face.png" alt="face"</div>
 <p><font color="#1d2136";>
     Founded in 2018,"Design Elements" company was passionate for the latest era of the internet,
-    and that’s what pushed us,members of experts, to do things out of the box. Besides, the programming
+    and that’s what pushed it,experts in UI and UX, to do things out of the box. Besides, the programming
     languages such as HTML and CSS will give both of us team and clients, websites 
     that look nice and function well. In web design, our aim is to make sure that
     the navigation of the website is simple and easy, while not forgetting that
@@ -86,6 +93,16 @@
 </section>
 
 
-<script type="text/javascript" src="scripts.js"></script>
+<aside class="Services-group">
+    <div class="container">
+    <div class="main-message">   
+    <h2><font color="white">Services</font></h2><br><br>
+
+
+    </div>
+    </div>
+</aside>
+
+<script type="text/javascript" src="js/scripts.js"></script>
 </body>
 </html>
