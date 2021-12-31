@@ -1,0 +1,164 @@
+html{
+    font-family: sans-serif;
+    font-size: 10px;
+    box-sizing: border-box;
+    color:white;
+    background-color:#1d2136;
+    background-image:url("../images/1px.png");
+	background-repeat: repeat;
+    margin:0;
+    padding: 0;
+}
+
+a{
+    text-decoration:none;
+}
+
+ul{
+   list-style:none; 
+   color:#1d2136;
+}
+p{
+    font-size: 1.2rem;
+    color: #1d2136;
+}
+img{
+    width:100%;
+    max-width:100%;
+    height: auto;
+    margin:0;
+    padding:0;
+}
+
+section{
+padding: 5rem 0;
+}
+
+/*header*/
+header{
+width: 100%;
+height:100%;
+top:0;
+left:0;
+
+}
+
+.container{
+    width:100%;
+    max-width:98rem;
+}
+
+nav{
+width:100%;
+display:flex;
+align-items: center;
+justify-content: space-between;
+padding:0;
+}
+
+.nav-brand{
+margin:0;
+padding:0;
+}
+
+.menu-icons i{
+   font-size: 3.5rem;
+   color:white;
+   cursor: pointer;
+   margin-right:5px;
+   margin-top:0px;
+}
+
+.close i{
+color:white;
+}
+
+.nav-list{
+width:25rem;
+background-color:#4bba11;
+position:fixed;
+border-radius: 25px 0 0 25px;
+height:80%;
+top:0;
+right:-50rem;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content: center;
+z-index:150;
+transition:all 650ms ease-in-out;
+}
+
+
+
+.close{
+position: absolute;
+top:1rem;
+left:1.5rem;
+}
+
+
+
+
+
+.nav-link{
+font-size: 1.6rem;
+text-transform: uppercase;
+color:#1d2136;
+}
+
+.nav-link:hover{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color:white;
+    }
+
+
+.nav-list.active{
+right:0;
+}
+
+.container .main-message p{
+ color:#1d2136; 
+ padding:10px;
+ border-bottom:7px solid #4bba11;
+ border-radius: 25px 0 25px 0;
+ background-image: url('paper.jpg');
+ background-size: cover;
+ z-index:200;
+background:-webkit-linear-gradient(top,white,gray);/*safari*/
+background:-o-linear-gradient(top,white,gray);
+background:-moz-linear-gradient(topwhite,gray);
+background:linear-gradient(top,white,gray);	
+}
+
+.custom-shape-divider-bottom-1640902398 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1640902398 svg {
+    position: relative;
+    display: block;
+    width: calc(188% + 1.3px);
+    height: 118px;
+}
+
+.custom-shape-divider-bottom-1640902398 .shape-fill {
+    fill: #4BBA11;
+}
+
+.face img{
+    max-width:15%;
+    border-radius:50%;
+    float:left;
+    width:40%;
+    height:40%;
+    margin:20px;
+    shape-outside:circle();
+}
